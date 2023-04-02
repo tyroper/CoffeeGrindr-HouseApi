@@ -7,7 +7,6 @@ using System.Collections.Generic;
 
 namespace HouseApi.Controllers
 {
-    [Authorize]
     public class HouseController : BaseController
     {
         [HttpPost]
